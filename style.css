@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-image:url(tree.jpeg.jpg);
+    background-size: cover;
+  
+}
+.navbar a{
+float:left;
+text-decoration: none;
+color: white;
+padding: 20px;
+font-size: 30px;
+font-family:cursive;
+
+}
+.navbar{
+    background-color: green;
+    
+    border-bottom: solid black;
+    overflow: hidden;
+}
+.navbar a:hover{
+    background-color:#cdecf1;
+    color: black;
+    
+}
+.navbar a.deez{
+   background-color: #cdecf1 ;
+   color: black;
+}
+.main{
+   font-size: 100px;
+   color: red;
+   text-decoration: transparent;
+   font-family:fantasy ;
+    position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
